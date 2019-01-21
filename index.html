@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calendar Using Javascript</title>
+        <link rel="stylesheet" href="css/stylesheet.css"/>
+        <script type="text/javascript" src="js/calendar.js"></script>
+    </head>
+    <body onload="renderCalendar()">
+        <div id="calendar">
+            <div class="month">
+                <span class="month-year" id="header">MM YYYY</span>
+            </div>
+            <div class="btn">
+                <button class="btn-img" onclick="prevMonth()"><<</button>
+            </div>
+            <div class="middle">
+                <table class="middle-days" id="days">
+                    <td class="day-special">S</td>
+                    <td>M</td>
+                    <td>T</td>
+                    <td>W</td>
+                    <td>T</td>
+                    <td>F</td>
+                    <td class="day-special">S</td>
+                </table>
+                <hr>
+                <div id="grid">
+                    <table class="current">
+                        <tbody id="calendar-grid">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="btn">
+                <button class="btn-img" onclick="nextMonth()">>></button>
+            </div>
+        </div>
+    </body>
+</html>

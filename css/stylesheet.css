@@ -1,0 +1,84 @@
+body {
+    font-family: helvetica, sans-serif;
+    margin: auto;
+    max-width: 500px;
+    padding: 200px;
+}
+
+#calendar {
+    height: 450px;
+}
+
+
+.btn-img {
+    border: none;
+    background-color: #CCCCCC;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    float: left;
+    margin: 20px;
+}
+
+.btn-img:hover {
+    background-color: #989898;
+}
+
+.btn {
+    float: left;
+    height: auto;
+    align-content: center;
+    padding-top: 125px;
+}
+
+.month {
+    text-align:  center;
+    width: auto;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center
+}
+
+.middle {
+    float: left;
+    border: 2px solid #CCCCCC;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.middle-days td {
+    font-weight: bold;
+    padding-right: 9px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 17px;
+}
+
+.day-special {
+    color: #FF0202;
+}
+
+hr {
+    color: #CCCCCC;
+}
+
+.current {
+    text-align: center;
+}
+
+.current td{
+    padding: 10px;
+}
+
+td:nth-child(7n){
+    color: #FF0202;
+}
+
+td:nth-child(7n+1) {
+    color: #FF0202;
+}
